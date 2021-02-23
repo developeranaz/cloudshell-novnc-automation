@@ -3,9 +3,9 @@
 #Author Anaz
 #orgin-repository : https://github.com/developeranaz/cloudshell-novnc-automation
 #updating system
-sudo apt update
+sudo apt update -y
 #installing screen
-sudo apt-get install screen
+sudo apt-get install screen -y
 #Activating screen
 screen -l
 #pushing docker ubuntu desktop (you can change resolution from below code) 
