@@ -23,7 +23,7 @@ $ `bash vnc.sh`
 
 Go to https://ngrok.io in any browser & signin or signup, copy the ngrok auth token and paste in terminal
 
-'ngrok token only '
+###### note: ngrok token only 
 
 eg: 4OXX56rxxxI0zzZZYXXXXZ0_3xSAyW24irP0xxxxx0xx
 
@@ -31,7 +31,7 @@ eg: 4OXX56rxxxI0zzZZYXXXXZ0_3xSAyW24irP0xxxxx0xx
 ## 5.Acessing VM through browser
 
 After installing necessary pakages
-The scrip ends by giving a url for accessing Vritual Machine.
+The script ends by giving a ngrok url section for accessing Vritual Machine.
 Access it by using your favourite browser
 
 ###### Tips: In novnc settings change `remote scaling` to `local scaling` for correcting resolution
