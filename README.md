@@ -16,7 +16,7 @@ $ `cd cloudshell-novnc-automation`
 ------
 ## 3.executing vnc
 
-$ `bash vnc.sh`
+< $ `bash vnc.sh`
 
 ------
 
