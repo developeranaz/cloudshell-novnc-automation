@@ -16,7 +16,13 @@ $ `cd cloudshell-novnc-automation`
 ------
 ## 3.executing vnc
 
-< $ `bash vnc.sh`
+$ `bash vnc.sh`
 
 ------
+## 4.It asks for ngrok authtoken
+
+Go to ngrok.io in any browser & signin or signup, copy the ngrok auth token and paste here, ngrok token only 
+ (example - 4OXX56rxxxI0zzZZYXXXXZ0_3xSAyW24irP0xxxxx0xx)
+
+
 
