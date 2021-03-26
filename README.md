@@ -21,7 +21,9 @@ $ `bash vnc.sh`
 ------
 ## 4.It asks for ngrok authtoken
 
-Go to https://ngrok.io in any browser & signin or signup, copy the ngrok auth token and paste here, ngrok token only 
+Go to https://ngrok.io in any browser & signin or signup, copy the ngrok auth token and paste in terminal
+
+'ngrok token only '
 
 eg: 4OXX56rxxxI0zzZZYXXXXZ0_3xSAyW24irP0xxxxx0xx
 
