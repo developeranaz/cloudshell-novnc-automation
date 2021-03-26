@@ -18,4 +18,17 @@ echo " Go to ngrok.io in any browser & signin or signup, copy the ngrok auth tok
 read input_token
 echo "You entered: $input_token"
 ./ngrok authtoken $input_token
+#00
+#This script isn't Advanced 
+#Author Anaz
+#orgin-repository : https://github.com/developeranaz/cloudshell-novnc-automation
+#updating system
+sudo apt update -y
+#installing screen
+sudo apt-get install screen -y
+#Activating screen
+#pushing docker ubuntu desktop (you can change resolution from below code) 
+screen -d -m docker run -p 8080:80 -e RESOLUTION=1920x1080 -v /dev/shm:/dev/shm dorowu/ubuntu-desktop-lxde-vnc
+
+#00
 ./ngrok http 8080
