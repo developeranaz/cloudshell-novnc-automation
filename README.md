@@ -32,6 +32,6 @@ After installing necessary pakages
 The scrip ends by giving a url for accessing Vritual Machine.
 Access it by using your favourite browser
 
-###### Tips: In novnc setting change `remote scaling` to `local scaling` for correcting resolution
+###### Tips: In novnc settings change `remote scaling` to `local scaling` for correcting resolution
 
 
