@@ -21,8 +21,17 @@ $ `bash vnc.sh`
 ------
 ## 4.It asks for ngrok authtoken
 
-Go to ngrok.io in any browser & signin or signup, copy the ngrok auth token and paste here, ngrok token only 
- (example - 4OXX56rxxxI0zzZZYXXXXZ0_3xSAyW24irP0xxxxx0xx)
+Go to https://ngrok.io in any browser & signin or signup, copy the ngrok auth token and paste here, ngrok token only 
 
+eg: 4OXX56rxxxI0zzZZYXXXXZ0_3xSAyW24irP0xxxxx0xx
+
+------
+## 5.Acessing VM through browser
+
+After installing necessary pakages
+The scrip ends by giving a url for accessing Vritual Machine.
+Access it by using your favourite browser
+
+#### tip: In novnc setting change 
 
 
