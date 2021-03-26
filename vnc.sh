@@ -1,6 +1,8 @@
 #!/bin/sh
-#wget 'https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip'
-#unzip ngrok-stable-linux-amd64.zip config/* 2> /dev/null || true 
+#This script isn't Advanced 
+#Author Anaz
+#orgin-repository : https://github.com/developeranaz/cloudshell-novnc-automation
+
 #making ngrok directory 
 mkdir ngrok
 #changing directory to ngrok
