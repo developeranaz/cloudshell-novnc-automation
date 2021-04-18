@@ -1,6 +1,8 @@
 # cloudshell-novnc-automation
 Google Cloudshell Free VPS with Docker-novnc and Ngrok - AUTOMATION
 
+#### Go To https://shell.cloud.google.com and use the below commands
+
 ## Before starting script give root permission
 $ ``sudo su``
 
