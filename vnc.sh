@@ -3,11 +3,6 @@
 #Author Anaz
 #orgin-repository : https://github.com/developeranaz/cloudshell-novnc-automation
 
-#making ngrok directory 
-mkdir ngrok
-
-#changing directory to ngrok
-cd ngrok
 
 #removing all existing files 
 rm * 
