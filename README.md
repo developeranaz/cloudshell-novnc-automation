@@ -5,8 +5,10 @@ Google Cloudshell Free VPS with Docker-novnc and Ngrok - AUTOMATION
 
 
 ## 1.cloning git repository
-$ ```
+$ 
+```
 sudo su; curl 'https://raw.githubusercontent.com/developeranaz/cloudshell-novnc-automation/developeranaz-patch-1/vnc.sh' |bash 
+
 ```
 
 ------
