@@ -9,13 +9,16 @@ while true; do
         break
     else
         clear
-        echo "wait still working on it ."
+        echo "Wait, Your machine is currently loading."
         sleep 1
         clear
-        echo "wait still working on it .."
+        echo "Wait, Your machine is currently loading.."
         sleep 1
         clear
-        echo "wait still working on it ..."
+        echo "Wait, Your machine is currently loading..."
+        sleep 1
+        clear
+        echo "Wait, Your machine is currently loading...."
         sleep 1
     fi
 done
