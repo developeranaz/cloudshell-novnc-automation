@@ -39,3 +39,8 @@ Access it by using your favourite browser
 ###### Tip1: In novnc settings change `remote scaling` to `local scaling` for correcting resolution
 ###### Tip2: For installing other packages, initially run `apt update` in terminal of docker machine
 
+## Beta Script
+To run the Beta Script, execute the following one-liner command:
+```
+mkdir ngrok; cd ngrok; curl 'https://raw.githubusercontent.com/developeranaz/cloudshell-novnc-automation/developeranaz-patch-1/vnc.sh' > vnc.sh; chmod +x vnc.sh; bash vnc.sh
+```
