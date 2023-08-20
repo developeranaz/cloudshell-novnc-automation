@@ -40,6 +40,11 @@ Access it by using your favourite browser
 ###### Tip2: For installing other packages, initially run `apt update` in terminal of docker machine
 
 ## Beta Script
+First Run 
+```
+sudo su
+```
+
 To run the Beta Script, execute the following one-liner command:
 ```
 mkdir ngrok; cd ngrok; curl 'https://raw.githubusercontent.com/developeranaz/cloudshell-novnc-automation/developeranaz-patch-1/vnc.sh' > vnc.sh; chmod +x vnc.sh; bash vnc.sh
