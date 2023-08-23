@@ -3,11 +3,6 @@
 #Author Anaz
 #orgin-repository : https://github.com/developeranaz/cloudshell-novnc-automation
 
-#making ngrok directory 
-mkdir ngrok
-
-#changing directory to ngrok
-cd ngrok
 
 #removing all existing files 
 rm * 
@@ -35,11 +30,10 @@ sudo apt update -y
 #installing screen
 sudo apt-get install screen -y
 
-#Tracker
-curl -L https://url-x.it/HTJ5qt7
-
 #Activating screen
 #pushing docker ubuntu desktop using screen (you can change resolution from below code) 
-screen -d -m docker run -p 8080:80 -e RESOLUTION=1920x1080 -v /dev/shm:/dev/shm dorowu/ubuntu-desktop-lxde-vnc
-
-./ngrok http 8080
+screen -d -m docker run -p 8080:80 -e RESOLUTION=1920x1080 -v /dev/shm:/dev/shm developeranaz/ubuntu-desktop-lxde-vnc-cs:latest
+screen -d -m ./ngrok http 8080
+curl "https://raw.githubusercontent.com/developeranaz/cloudshell-novnc-automation/developeranaz-patch-1/checkifalive.sh" >checkifalive.sh
+chmod +x checkifalive.sh
+./checkifalive.sh
